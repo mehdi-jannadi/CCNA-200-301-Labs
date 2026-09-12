@@ -8,7 +8,7 @@ Understand how network communication can be analyzed through the different layer
 
 The lab uses a preconfigured network topology to observe the protocols and technologies involved in network communication.
 
-![Network Topology](topology.png)
+![Network Topology](Topology.png)
 
 ## OSI Layer Analysis
 
@@ -24,7 +24,7 @@ The lab uses a preconfigured network topology to observe the protocols and techn
 
 Packet Tracer Simulation Mode was used to inspect the PDUs exchanged through the network.
 
-![DHCP Simulation](simulation-dhcp.png)
+![DHCP Simulation](Simulation-PDUs.png)
 
 ## Key Observation
 
