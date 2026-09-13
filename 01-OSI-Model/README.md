@@ -28,8 +28,20 @@ Packet Tracer Simulation Mode was used to inspect the PDUs exchanged through the
 
 ## Key Observation
 
-The simulation demonstrates the concept of encapsulation: application data is transported using UDP, encapsulated into an IPv4 packet, 
-and then into an Ethernet frame.
+The simulation demonstrates the DHCP address assignment process through a DHCP release and renewal operation.
+
+The client first releases its current IP configuration using `ipconfig /release`. It then requests a new IP configuration using `ipconfig /renew`.
+
+During this process, DHCP messages are exchanged between the client and the DHCP server. The simulation allows the encapsulation of these messages to be observed across the network stack:
+
+- **Application Layer:** DHCP
+- **Transport Layer:** UDP
+- **Network Layer:** IPv4
+- **Data Link Layer:** Ethernet
+
+This illustrates how data is encapsulated as it moves down the OSI model and decapsulated when received by the destination.
+
+The simulation also shows the role of DHCP in dynamically assigning IP configuration parameters to the client.
 
 ## Skills
 
