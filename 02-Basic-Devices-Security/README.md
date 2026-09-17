@@ -10,7 +10,7 @@ This lab introduces basic device identification, privileged EXEC mode protection
 
 The lab uses a simple network topology composed of Cisco routers.
 
-![Network Topology](topology.png)
+![Network Topology](Topology.png)
 
 ## Lab Steps
 
@@ -109,10 +109,3 @@ Password Encryption
 Running Configuration
 Startup Configuration
 Configuration Persistence
-
-```
-###
-
-```
-
-```
