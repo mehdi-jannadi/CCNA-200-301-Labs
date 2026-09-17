@@ -99,13 +99,13 @@ show startup-config
 ```
 
 ## Skills
-Cisco IOS CLI
-Global Configuration Mode
-Privileged EXEC Mode
-Hostname Configuration
-Enable Password
-Enable Secret
-Password Encryption
-Running Configuration
-Startup Configuration
-Configuration Persistence
+- Cisco IOS CLI
+- Global Configuration Mode
+- Privileged EXEC Mode
+- Hostname Configuration
+- Enable Password
+- Enable Secret
+- Password Encryption
+- Running Configuration
+- Startup Configuration
+- Configuration Persistence
