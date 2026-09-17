@@ -30,7 +30,14 @@ Packet Tracer Simulation Mode was used to inspect the PDUs exchanged through the
 
 The simulation demonstrates the DHCP address assignment process through a DHCP release and renewal operation.
 
-The client first releases its current IP configuration using `ipconfig /release`. It then requests a new IP configuration using `ipconfig /renew`.
+The client first releases its current IP configuration using:
+```
+ipconfig /release
+```
+It then requests a new IP configuration using:
+```
+ipconfig /renew
+```
 
 During this process, DHCP messages are exchanged between the client and the DHCP server. The simulation allows the encapsulation of these messages to be observed across the network stack:
 
