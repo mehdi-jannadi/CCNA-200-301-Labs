@@ -8,6 +8,8 @@ The lab also demonstrates how configuring the correct IP addresses and enabling 
 
 ## Topology
 
+![Configuring IP Addresses Topology](topology.png)
+
 The topology is preconfigured and consists of:
 
 * PCs connected to the network
@@ -57,11 +59,7 @@ At this stage, the interfaces do not have IP addresses configured.
 
 A typical output may look like:
 
-```text
-Interface              IP-Address      OK? Method Status                Protocol
-GigabitEthernet0/0     unassigned      YES unset  administratively down down
-GigabitEthernet0/1     unassigned      YES unset  administratively down down
-```
+![Configuring IP Addresses Topology](interfaces-state-before-configuration.png)
 
 This allows us to verify the initial state of the router interfaces.
 
@@ -101,6 +99,8 @@ or simply:
 ```text
 R1# show run
 ```
+
+![Configuring IP Addresses Topology](interfaces-state-after-configuration.png)
 The running configuration now contains the hostname and the configured interface parameters. This confirms that the configuration has been successfully applied.
 
 You can also use:
@@ -118,6 +118,8 @@ The PCs must also be configured with their corresponding IPv4 addresses before t
 PC → Desktop → IP Configuration
 
 Select Static and enter the IP addressing information according to the topology.
+
+![Configuring IP Addresses Topology](Pc1-ip-address-configuration.png)
 
 Repeat the process for each PC in the topology.
 
